@@ -1,0 +1,105 @@
+/* COLOR */
+/* ----- */
+/* GLOBALE */
+/* ------- */
+/* DASHBOARD PAGE */
+/* HEADER */
+header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#91a9ca), to(#476da6));
+  background-image: linear-gradient(to right, #91a9ca, #476da6);
+  padding-bottom: 2rem;
+}
+
+header .navbar-brand {
+  margin-bottom: 1rem;
+}
+
+header .navbar-brand .imgLogo {
+  border-radius: 10px;
+  width: 200px;
+}
+
+header h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* ------ */
+/* -------------- */
+/* Blog PAGE */
+.bodyBlog {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f1f1f1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bodyBlog .formBlog, .bodyBlog .sectionBlog {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 80%;
+  min-height: 350px;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #d9d9d9, #ffffff);
+  -webkit-box-shadow: 20px 20px 60px #cdcdcd, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #cdcdcd, -20px -20px 60px #ffffff;
+}
+
+.bodyBlog .formBlog input,
+.bodyBlog .formBlog textarea, .bodyBlog .sectionBlog input,
+.bodyBlog .sectionBlog textarea {
+  width: 80%;
+  margin: 3px;
+}
+
+.bodyBlog .formBlog .aPostAdd, .bodyBlog .sectionBlog .aPostAdd {
+  overflow: hidden;
+}
+
+.bodyBlog .formBlog .aPostAdd .far, .bodyBlog .sectionBlog .aPostAdd .far {
+  color: #000;
+  font-size: 3rem;
+}
+
+.bodyBlog .formBlog .aPostAdd .fas, .bodyBlog .sectionBlog .aPostAdd .fas {
+  display: none;
+  color: #000;
+  font-size: 3rem;
+}
+
+.bodyBlog .formBlog .aPostAdd:hover .far, .bodyBlog .sectionBlog .aPostAdd:hover .far {
+  display: none;
+}
+
+.bodyBlog .formBlog .aPostAdd:hover .fas, .bodyBlog .sectionBlog .aPostAdd:hover .fas {
+  display: block;
+  text-decoration: none;
+}
+
+/* ---------- */
+/*# sourceMappingURL=app.css.map */
